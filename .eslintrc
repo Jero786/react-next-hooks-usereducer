@@ -1,0 +1,34 @@
+{
+	"env": {
+		"browser": true,
+		"jest": true
+	},
+	"plugins": [
+		"react-hooks"
+	],
+	"extends": [
+		"airbnb",
+		"eslint:recommended"
+	],
+	"parser": "babel-eslint",
+	"rules": {
+		"react-hooks/rules-of-hooks": "error",
+		"import/no-named-as-default": 0,
+		"import/extensions": 0,
+		"import/no-unresolved": 0,
+		"quotes": [
+			"error",
+			"single"
+		],
+		"react/require-default-props": 0,
+		"react/jsx-filename-extension": [
+			"error",
+			{
+				"extensions": [
+					".js",
+					".jsx"
+				]
+			}
+		]
+	}
+}

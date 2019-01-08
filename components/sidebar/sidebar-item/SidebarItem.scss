@@ -1,0 +1,37 @@
+@import '../../../commons/commons';
+
+.side-bar-item {
+
+  display: flex;
+  justify-content: flex-start;
+
+  font-size: 1.3em;
+  padding: .9em 1em;
+  transition: all .3s;
+  font-weight: 600;
+
+  color: $gray;
+
+  &.is-active {
+    color: $coral;
+  }
+
+  &:hover {
+    cursor: pointer;
+    border-left: solid $coral 3px;
+    margin-left: -5px;
+    background-color: $grayLighter;
+  }
+
+  &__text {
+    padding-left: .7em;
+  }
+
+  &__icon {
+    width: 1.5em;
+  }
+}
+
+.bg-icon_events_sidebar {
+  width: 16px; height: 16px;
+}

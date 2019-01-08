@@ -1,0 +1,7 @@
+/.next
+/__mocks__
+/__mocks__
+/coverage
+/node_modules
+/static
+/pages/_document.js

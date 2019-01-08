@@ -1,0 +1,9 @@
+// General
+export const SCROLL = 'SCROLL';
+export const RESIZE = 'RESIZE';
+export const SIDEBAR_CLICKED = 'SIDEBAR_CLICKED';
+export const SCREEN_IS_MOBILE = 'SCREEN_IS_MOBILE';
+export const SCREEN_IS_TABLET = 'SCREEN_IS_TABLET';
+export const SCREEN_IS_DESKTOP = 'SCREEN_IS_DESKTOP';
+export const IS_STICKY_HEADER = 'IS_STICKY_HEADER';
+export const IS_UNSTICKY_HEADER = 'IS_UNSTICKY_HEADER';
